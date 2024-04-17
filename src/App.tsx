@@ -21,7 +21,7 @@ export default function App() {
    }, [debounceSearch]);
 
    return (
-      <div className="min-h-[100dvh] bg-black">
+      <div className="min-h-[100svh] bg-black">
          <Header handleSearch={handleSearch} />
          <main className="max-w-6xl mx-auto px-4 pt-8 relative">
             <section className="relative">
